@@ -1,7 +1,6 @@
-# beezk
-bee zero knowledge proofs boilerplate
+# soulbound token claims
 
-forked from https://github.com/ConsenSys/gnark-tests
+
 
 ## beezk boilerplate features
 
