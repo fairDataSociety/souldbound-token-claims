@@ -1,6 +1,19 @@
 # soulbound token claims
 
+From FIPs P2P Marketplace
 
+> Implementation must contain a set of claims using `beezk`, already described as
+> - `provenance claim` which attests for a proof of origin of a NFT metadata
+> - `publisher or issuer claim` which attests for proof of originator
+> - `wholesaler claim` which attests for a proof of allowed or certified wholesaler
+
+In `gnark` circuits standard library, we get can translate this to:
+
+- Provenance claim must be implemented with a `merkle proof verification` 
+- Issuer claim must be implemented with a `merkle proof verification` 
+- Wholesaler claim must be implemented with a `zk snark verification` as in `Is this wholesaler/marketplace certified to sell my NFTs? yes or no?` without disclosing which wholesaler are or not certified.
+
+===
 
 ## beezk boilerplate features
 
